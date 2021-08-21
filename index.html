@@ -1,0 +1,713 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>DeFiant Studios</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="shortcut icon" href="assets/img/favicon.ico">
+
+  <!-- Theme styles -->
+  <link rel="stylesheet" type="text/css" href="assets/css/theme.min.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+  <!-- Comment the following line if you prefer vendors broken down -->
+  <link rel="stylesheet" type="text/css" href="assets/css/vendor.min.css">
+
+  <!-- Uncomment these lines if you prefer vendors broken down -->
+  <!-- <link rel="stylesheet" type="text/css" href="assets/vendor/aos/aos.css">
+  <link rel="stylesheet" type="text/css" href="assets/vendor/fancybox/jquery.fancybox.css">
+  <link rel="stylesheet" type="text/css" href="assets/vendor/pikaday/pikaday.css">
+  <link rel="stylesheet" type="text/css" href="assets/vendor/jarallax/dist/jarallax.css">
+  <link rel="stylesheet" type="text/css" href="assets/vendor/highlight/styles.css">
+  <link rel="stylesheet" type="text/css" href="assets/vendor/swiper/swiper.css">
+  <link rel="stylesheet" type="text/css" href="assets/vendor/atvImg/atvImg.css"> -->
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_CODE_HERE"></script> -->
+  <!-- <script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'YOUR_CODE_HERE');</script> -->
+<style>
+  #headerContent {
+    background-color: #f6f9fc;
+  }
+</style>
+
+
+</head>
+
+<body>
+  <div id="headerContent"></div>
+
+  <!-- <nav class="navbar navbar-expand-lg navbar-light bg-transparent position-absolute w-100" role="navigation">
+
+    <div class="container position-relative">
+        <a class="navbar-brand" href="./index.html">
+
+<svg width="81px" height="19px" viewBox="0 0 81 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <path d="M6.982,18.4 C8.63933333,18.4 10.0803333,18.07 11.305,17.41 C12.5296667,16.75 13.4683333,15.8296667 14.121,14.649 C14.7736667,13.4683333 15.1,12.1153333 15.1,10.59 C15.1,9.06466667 14.7736667,7.71533333 14.121,6.542 C13.4683333,5.36866667 12.5333333,4.45933333 11.316,3.814 C10.0986667,3.16866667 8.654,2.846 6.982,2.846 L6.982,2.846 L1.108,2.846 L1.108,18.4 L6.982,18.4 Z M6.652,15.034 L4.87,15.034 L4.87,6.146 L6.652,6.146 C8.11866667,6.146 9.259,6.53466667 10.073,7.312 C10.887,8.08933333 11.294,9.182 11.294,10.59 C11.294,11.998 10.887,13.0906667 10.073,13.868 C9.259,14.6453333 8.11866667,15.034 6.652,15.034 L6.652,15.034 Z M22.4113333,18.554 C23.438,18.554 24.3693333,18.3596667 25.2053333,17.971 C26.0413333,17.5823333 26.7306667,17.047 27.2733333,16.365 C27.816,15.683 28.168,14.9093333 28.3293333,14.044 L28.3293333,14.044 L24.3473333,14.044 C24.23,14.484 23.988,14.8433333 23.6213333,15.122 C23.2546667,15.4006667 22.7926667,15.54 22.2353333,15.54 C21.5753333,15.54 21.0326667,15.3383333 20.6073333,14.935 C20.182,14.5316667 19.9473333,13.868 19.9033333,12.944 L19.9033333,12.944 L28.4173333,12.944 C28.4906667,12.5773333 28.5273333,12.24 28.5273333,11.932 C28.5273333,10.7586667 28.2743333,9.721 27.7683333,8.819 C27.2623333,7.917 26.5473333,7.21666667 25.6233333,6.718 C24.6993333,6.21933333 23.6286667,5.97 22.4113333,5.97 C21.2086667,5.97 20.138,6.223 19.1993333,6.729 C18.2606667,7.235 17.531,7.961 17.0103333,8.907 C16.4896667,9.853 16.2293333,10.9713333 16.2293333,12.262 C16.2293333,13.538 16.4933333,14.6526667 17.0213333,15.606 C17.5493333,16.5593333 18.279,17.289 19.2103333,17.795 C20.1416667,18.301 21.2086667,18.554 22.4113333,18.554 Z M24.7213333,11.36 L19.9253333,11.36 C19.984,10.568 20.2406667,9.96666667 20.6953333,9.556 C21.15,9.14533333 21.722,8.94 22.4113333,8.94 C23.0713333,8.94 23.625,9.14166667 24.0723333,9.545 C24.5196667,9.94833333 24.736,10.5533333 24.7213333,11.36 L24.7213333,11.36 Z M33.8806667,18.4 L33.8806667,12.108 L38.8086667,12.108 L38.8086667,9.248 L33.8806667,9.248 L33.8806667,5.838 L40.2606667,5.838 L40.2606667,2.846 L30.1186667,2.846 L30.1186667,18.4 L33.8806667,18.4 Z M43.722,4.628 C44.3966667,4.628 44.9393333,4.441 45.35,4.067 C45.7606667,3.693 45.966,3.22733333 45.966,2.67 C45.966,2.098 45.7606667,1.625 45.35,1.251 C44.9393333,0.877 44.3966667,0.69 43.722,0.69 C43.0473333,0.69 42.5046667,0.877 42.094,1.251 C41.6833333,1.625 41.478,2.098 41.478,2.67 C41.478,3.22733333 41.6833333,3.693 42.094,4.067 C42.5046667,4.441 43.0473333,4.628 43.722,4.628 Z M45.592,18.4 L45.592,6.124 L41.83,6.124 L41.83,18.4 L45.592,18.4 Z M53.2553333,18.554 C54.4726667,18.554 55.5103333,18.2386667 56.3683333,17.608 C57.2263333,16.9773333 57.8166667,16.1413333 58.1393333,15.1 L58.1393333,15.1 L58.1393333,18.4 L59.6573333,18.4 L59.6573333,6.388 L58.1393333,6.388 L58.1393333,9.688 C57.8166667,8.64666667 57.2263333,7.81066667 56.3683333,7.18 C55.5103333,6.54933333 54.4726667,6.234 53.2553333,6.234 C52.1553333,6.234 51.18,6.47966667 50.3293333,6.971 C49.4786667,7.46233333 48.815,8.17366667 48.3383333,9.105 C47.8616667,10.0363333 47.6233333,11.1326667 47.6233333,12.394 C47.6233333,13.6406667 47.8616667,14.7296667 48.3383333,15.661 C48.815,16.5923333 49.4823333,17.3073333 50.3403333,17.806 C51.1983333,18.3046667 52.17,18.554 53.2553333,18.554 Z M53.6513333,17.19 C52.302,17.19 51.2203333,16.761 50.4063333,15.903 C49.5923333,15.045 49.1853333,13.8753333 49.1853333,12.394 C49.1853333,10.9126667 49.5923333,9.743 50.4063333,8.885 C51.2203333,8.027 52.302,7.598 53.6513333,7.598 C54.502,7.598 55.2683333,7.796 55.9503333,8.192 C56.6323333,8.588 57.1676667,9.149 57.5563333,9.875 C57.945,10.601 58.1393333,11.4406667 58.1393333,12.394 C58.1393333,13.3473333 57.945,14.187 57.5563333,14.913 C57.1676667,15.639 56.6323333,16.2 55.9503333,16.596 C55.2683333,16.992 54.502,17.19 53.6513333,17.19 Z M64.1966667,18.4 L64.1966667,12.02 C64.1966667,10.524 64.5523333,9.391 65.2636667,8.621 C65.975,7.851 66.932,7.466 68.1346667,7.466 C69.2786667,7.466 70.1806667,7.81433333 70.8406667,8.511 C71.5006667,9.20766667 71.8306667,10.2086667 71.8306667,11.514 L71.8306667,11.514 L71.8306667,18.4 L73.3486667,18.4 L73.3486667,11.404 C73.3486667,9.688 72.9123333,8.38633333 72.0396667,7.499 C71.167,6.61166667 70.034,6.168 68.6406667,6.168 C67.5993333,6.168 66.6753333,6.43933333 65.8686667,6.982 C65.062,7.52466667 64.5046667,8.30933333 64.1966667,9.336 L64.1966667,9.336 L64.1966667,6.388 L62.6346667,6.388 L62.6346667,18.4 L64.1966667,18.4 Z M81.694,18.4 L81.694,17.036 L80.462,17.036 C79.6846667,17.036 79.142,16.8783333 78.834,16.563 C78.526,16.2476667 78.372,15.6646667 78.372,14.814 L78.372,14.814 L78.372,7.73 L81.672,7.73 L81.672,6.388 L78.372,6.388 L78.372,3.352 L76.81,3.352 L76.81,6.388 L74.984,6.388 L74.984,7.73 L76.81,7.73 L76.81,14.792 C76.81,16.0973333 77.096,17.025 77.668,17.575 C78.24,18.125 79.1053333,18.4 80.264,18.4 L80.264,18.4 L81.694,18.4 Z" id="DeFiant" fill="currentColor"></path>
+</svg>
+      </a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <div class="collapse navbar-collapse justify-content-end mt-2 mt-lg-0" id="navbar-collapse">
+          <ul class="navbar-nav ">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./pricing.html">Pricing</a>
+            </li>
+
+
+
+            <li class="nav-item">
+              <a class="nav-link" href="./projects.html">Projects</a>
+            </li>
+
+
+            <li class="nav-item ml-lg-3 mt-3 mt-lg-0">
+              <a class="btn btn-sm btn-primary hover-lift-light mt-1" href="./contact.html">
+                Let's talk
+              </a>
+            </li>
+
+          </ul>
+
+
+
+
+      </div> 
+
+    </div> 
+  </nav> -->
+
+
+  <!-- Hero -->
+  <section class="bg-light position-relative py-8 py-lg-11 py-xxl-12">
+    <!-- SVG divider -->
+    <div class="svg-divider svg-divider-bottom text-white">
+      <svg preserveAspectRatio="none" viewBox="0 0 2000 350" xmlns="http://www.w3.org/2000/svg">
+        <polygon fill="currentColor" points="2000 0 2000 350 0 350"></polygon>
+      </svg>
+
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <!-- Intro -->
+        <div class="col-lg-6 text-center text-lg-left pr-xl-5">
+          <div class="fx-fade-up animation-delay-2">
+            <h3 class="text-muted text-uppercase-xs">
+              Straight to business, shall we?
+            </h3>
+
+            <h1 class="text-darkblue font-weight-normal mt-4">
+              Let's design your next <span class="text-primary">DeFi</span>, <span class="text-primary">Cryptocurrency</span> or <span class="text-primary">Blockchain</span> project.
+            </h1>
+          </div>
+
+          <p class="lead text-muted w-lg-80 mt-4 fx-fade-up animation-delay-4">
+            We know our way around DeFi and would love to help you succeed.
+          </p>
+
+          <div class="mt-5 fx-fade-up animation-delay-6">
+            <a href="#" class="btn btn-purple text-uppercase font-size-sm shadow-sm hover-lift pt-2 mr-3">
+              Let's talk
+            </a>
+            <a href="docs/index.html" class="btn btn-white text-uppercase font-size-sm font-weight-bold shadow-sm hover-lift pt-2">
+              View projects
+            </a>
+          </div>
+        </div>
+
+        <!-- Screens collage -->
+        <div class="col-lg-6 position-relative d-none d-lg-block">
+          <!-- Set inline width and height for retina -->
+          <div class="position-lg-absolute right-0 bottom-0 mb-lg-n8 fx-fade-up animation-delay-6">
+            <a href="projects.html" class="atvImg d-block" style="width:379px;height: 247px">
+              <img src="assets/img/screenshots/atv-2.jpg" style="width: 379px;">
+              <span class="atvImg-layer" data-img="assets/img/screenshots/atv-2.jpg"></span>
+            </a>
+          </div>
+
+          <div class="position-lg-absolute top-0 right-0 mt-lg-n6 mr-lg-n7 fx-fade-up animation-delay-2">
+            <a href="projects.html" class="atvImg d-block" style="width:379px;height: 250px">
+              <img src="assets/img/screenshots/atv-3.jpg" style="width: 379px;">
+              <span class="atvImg-layer" data-img="assets/img/screenshots/atv-3.jpg"></span>
+            </a>
+          </div>
+
+          <div class="position-lg-absolute top-0 left-0 mt-lg-4 ml-lg-3 fx-fade-up animation-delay-4">
+            <a href="projects.html" class="atvImg d-block" style="width:379px;height: 260px">
+              <img src="assets/img/screenshots/atv-1.jpg" style="width: 379px;">
+              <span class="atvImg-layer" data-img="assets/img/screenshots/atv-1.jpg"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Companies Logos -->
+  <section class="mt-5 mt-lg-4">
+    <div class="container">
+      <h3 class="text-center text-primary text-uppercase-bold-sm line-height-lg">
+        Some projects we've built recently
+      </h3>
+
+      <div class="row justify-content-between align-items-center mt-5">
+        <div class="col-6 col-sm-4 col-lg-auto">
+          <div class="text-darkblue mx-auto img-fluid" style="height: 30px;">
+            <img src="assets/img/svg/Darkmoon.svg" />
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-lg-auto">
+          <div class="text-darkblue mx-auto img-fluid" style="height: 30px;">
+            <img src="assets/img/svg/Solana.svg" />
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-lg-auto">
+          <div class="text-darkblue mx-auto img-fluid" style="height: 30px;">
+            <img src="assets/img/svg/sekuritance.svg" />
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-lg-auto">
+          <div class="text-darkblue mx-auto img-fluid" style="height: 30px;">
+            <img src="assets/img/svg/Pangolin.svg" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Clients -->
+  <section class="my-8">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 position-relative">
+          <!-- Swiper -->
+          <div class="swiper-container" data-toggle="swiper" data-options='{"loop": true, "speed": 500, "grabCursor": true, "pagination": { "el": ".swiper-pagination", "clickable": true}}'>
+
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="bg-cover h-600 position-relative rounded" style="background-image: url('assets/img/unsplash/666.jpeg');">
+                  <!-- Quote -->
+                  <div class="bg-light w-90 position-absolute bottom-0 left-0 px-5 py-4 mb-4">
+                    <img src="assets/img/svg/collectix.svg" class="img-fluid" style="width: 100px;" alt="">
+                    <p class="text-darkblue mt-3">
+                      "We are truly grateful for all the great work that DeFiant has done for us"
+                    </p>
+                    <div class="text-purple text-uppercase-bold-sm mt-4">
+                      Arthur Suszko
+                    </div>
+                    <div class="font-size-sm text-dark">
+                      Founder
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="bg-cover h-600 position-relative rounded" style="background-image: url('assets/img/uifaces/cryptodad.jpg');">
+                  <!-- Quote -->
+                  <div class="bg-light w-90 position-absolute bottom-0 left-0 px-5 py-4 mb-4">
+                    <img src="assets/img/svg/letzbake.svg" class="img-fluid" style="width: 100px;" alt="">
+                    <p class="text-darkblue mt-3">
+                      "The project quality & knowledge of blockchain technology have been spot on, been a pleasure working with you guys."
+                    </p>
+                    <div class="text-purple text-uppercase-bold-sm mt-4">
+                      Marc B.
+                    </div>
+                    <div class="font-size-sm text-dark">
+                      Founder
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="bg-cover h-600 position-relative rounded" style="background-image: url('assets/img/uifaces/dirk.jpg');">
+                  <!-- Quote -->
+                  <div class="bg-light w-90 position-absolute bottom-0 left-0 px-5 py-4 mb-4">
+                    <img src="assets/img/svg/darkmoon.svg" class="img-fluid" style="width: 80px;" alt="">
+                    <p class="text-darkblue mt-3">
+                      "They've been incredible with all our projects, cannot recommend them enough to our peers"
+                    </p>
+                    <div class="text-purple text-uppercase-bold-sm mt-4">
+                      Dirk-Jan de Groot
+                    </div>
+                    <div class="font-size-sm text-dark">
+                      CTO/Founder
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-pagination center-x mt-2"></div>
+        </div>
+
+        <div class="col-md-6 col-lg-5 offset-lg-1">
+          <div class="mt-7 mt-lg-9">
+
+            <h3 class="font-weight-normal text-center text-lg-left">
+              We've had the honor to work with some amazing clients
+            </h3>
+
+            <!-- Logos -->
+            <div class="row justify-content-between align-items-center mt-5">
+              <div class="col-6 col-lg-4 mb-4">
+                <div class="text-darkblue mx-auto img-fluid" style="width: 130px;">
+                    <img src="assets/img/svg/pangolin-color.svg" class="img-fluid" alt="">
+                </div>
+              </div>
+              <div class="col-6 col-lg-4 mb-4">
+                <div class="text-darkblue mx-auto img-fluid" style="width: 100px;">
+                    <img src="assets/img/svg/serum-color.svg" class="img-fluid" alt="">
+                </div>
+              </div>
+              <div class="col-6 col-lg-4 mb-4">
+                <div class="text-darkblue mx-auto img-fluid" style="width: 110px;">
+                    <img src="assets/img/svg/solana-color.svg" class="img-fluid" alt="">
+                </div>
+              </div>
+              <div class="col-6 col-lg-4 mb-4">
+                <div class="text-darkblue mx-auto img-fluid" style="width: 100px;">
+                    <img src="assets/img/svg/proofofbake.png" class="img-fluid" alt="">
+                </div>
+              </div>
+              <div class="col-6 col-lg-4 mb-4">
+                <div class="text-darkblue mx-auto img-fluid" style="width: 110px;">
+                    <img src="assets/img/svg/snowball-color.png" class="img-fluid" alt="">
+                </div>
+              </div>
+              <div class="col-6 col-lg-4 mb-4">
+                <div class="text-darkblue mx-auto img-fluid" style="width: 110px;">
+                    <img src="assets/img/svg/tombola-color.png" class="img-fluid" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Stats -->
+  <section class="bg-light py-6 py-lg-8 mt-6 mt-lg-0">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-4">
+          <div class="icon-circle icon-circle-lg bg-pistachio text-dark">
+            <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><title>ionicons-v5-m</title><rect x="280.48" y="122.9" width="63.03" height="378.2" rx="10" ry="10" transform="translate(-129.23 312) rotate(-45)" style="fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px"/><rect x="180.35" y="164.45" width="63.29" height="95.1" transform="translate(-87.81 212) rotate(-45)"/><line x1="48" y1="192" x2="96" y2="192" style="stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"/><line x1="90.18" y1="90.18" x2="124.12" y2="124.12" style="stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"/><line x1="192" y1="48" x2="192" y2="96" style="stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"/><line x1="293.82" y1="90.18" x2="259.88" y2="124.12" style="stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"/><line x1="124.12" y1="259.88" x2="90.18" y2="293.82" style="stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"/></svg>
+          </div>
+
+          <h2 class="font-weight-normal mt-4">
+            We're a bunch of crypto-fanatics who love working on DeFi
+          </h2>
+
+          <p class="text-muted mt-4">
+            Over the past years, we've helped dozens of DeFi companies thrive in the cryptocurrency world. We love what we do, and you would too.
+          </p>
+        </div>
+        <div class="col-lg-7 offset-lg-1 mt-4 mt-lg-0">
+          <div class="row g-0">
+            <div class="col-6 bg-white text-purple text-center py-5 py-md-7">
+              <h1 class="display-3">
+                20+
+              </h1>
+              <p class="m-0">
+                DeFi projects
+              </p>
+            </div>
+
+            <div class="col-6 bg-purple text-white text-center py-5 py-md-7">
+              <h1 class="display-3">
+                100+
+              </h1>
+              <p class="m-0">
+                non-DeFi projects
+              </p>
+            </div>
+
+            <div class="col-6 bg-purple text-white text-center py-5 py-md-7">
+              <h1 class="display-3">
+                11 Yrs
+              </h1>
+              <p class="m-0">
+                of experience
+              </p>
+            </div>
+
+            <div class="col-6 bg-white text-purple text-center py-5 py-md-7">
+              <h1 class="display-3">
+                13
+              </h1>
+              <p class="m-0">
+                countries served
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gradient wrapper -->
+  <section class="bg-gradient-light pb-7">
+    <!-- Features #1 -->
+    <div class="pt-8 pt-lg-9">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 text-center">
+            <div class="video-card card-skew-right h-300 overlay overlay-primary overlay-20" style="background-image: url('assets/img/unsplash/22.jpeg');">
+              <a class="icon-circle icon-circle-lg bg-white text-darkblue hover-scale position-relative" href="https://www.youtube.com/watch?v=1R8wg6dPK-Y" data-fancybox>
+                <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <rect x="0" y="0" width="24" height="24"></rect>
+                        <path d="M9.82866499,18.2771971 L16.5693679,12.3976203 C16.7774696,12.2161036 16.7990211,11.9002555 16.6175044,11.6921539 C16.6029128,11.6754252 16.5872233,11.6596867 16.5705402,11.6450431 L9.82983723,5.72838979 C9.62230202,5.54622572 9.30638833,5.56679309 9.12422426,5.7743283 C9.04415337,5.86555116 9,5.98278612 9,6.10416552 L9,17.9003957 C9,18.1765381 9.22385763,18.4003957 9.5,18.4003957 C9.62084305,18.4003957 9.73759731,18.3566309 9.82866499,18.2771971 Z" fill="#000000"></path>
+                    </g>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-6 pl-lg-6 mt-6 mt-lg-0">
+            <!-- Feature -->
+            <div class="d-flex">
+              <span class="svg-icon svg-icon-xl text-primary">
+                <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <polygon points="0 0 24 0 24 24 0 24"></polygon>
+                        <path d="M5.74714567,13.0425758 C4.09410362,11.9740356 3,10.1147886 3,8 C3,4.6862915 5.6862915,2 9,2 C11.7957591,2 14.1449096,3.91215918 14.8109738,6.5 L17.25,6.5 C19.3210678,6.5 21,8.17893219 21,10.25 C21,12.3210678 19.3210678,14 17.25,14 L8.25,14 C7.28817895,14 6.41093178,13.6378962 5.74714567,13.0425758 Z" fill="#000000" opacity="0.3"></path>
+                        <path d="M11.1288761,15.7336977 L11.1288761,17.6901712 L9.12120481,17.6901712 C8.84506244,17.6901712 8.62120481,17.9140288 8.62120481,18.1901712 L8.62120481,19.2134699 C8.62120481,19.4896123 8.84506244,19.7134699 9.12120481,19.7134699 L11.1288761,19.7134699 L11.1288761,21.6699434 C11.1288761,21.9460858 11.3527337,22.1699434 11.6288761,22.1699434 C11.7471877,22.1699434 11.8616664,22.1279896 11.951961,22.0515402 L15.4576222,19.0834174 C15.6683723,18.9049825 15.6945689,18.5894857 15.5161341,18.3787356 C15.4982803,18.3576485 15.4787093,18.3380775 15.4576222,18.3202237 L11.951961,15.3521009 C11.7412109,15.173666 11.4257142,15.1998627 11.2472793,15.4106128 C11.1708299,15.5009075 11.1288761,15.6153861 11.1288761,15.7336977 Z" fill="#000000" fill-rule="nonzero" transform="translate(11.959697, 18.661508) rotate(-270.000000) translate(-11.959697, -18.661508) "></path>
+                    </g>
+                </svg>
+              </span>
+              <div class="flex-1 ml-4">
+                <h6 class="text-darkblue text-uppercase font-weight-bold">
+                  Understanding of DeFi
+                </h6>
+                <p class="text-muted">
+                  We have been in the business for years and understand the ins and outs of how DeFi works.
+                </p>
+              </div>
+            </div>
+
+            <!-- Feature -->
+            <div class="d-flex mt-4 mt-xl-5">
+              <span class="svg-icon svg-icon-xl text-primary">
+                <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <rect x="0" y="0" width="24" height="24"></rect>
+                        <path d="M8,13.1668961 L20.4470385,11.9999863 L8,10.8330764 L8,5.77181995 C8,5.70108058 8.01501031,5.63114635 8.04403925,5.56663761 C8.15735832,5.31481744 8.45336217,5.20254012 8.70518234,5.31585919 L22.545552,11.5440255 C22.6569791,11.5941677 22.7461882,11.6833768 22.7963304,11.794804 C22.9096495,12.0466241 22.7973722,12.342628 22.545552,12.455947 L8.70518234,18.6841134 C8.64067359,18.7131423 8.57073936,18.7281526 8.5,18.7281526 C8.22385763,18.7281526 8,18.504295 8,18.2281526 L8,13.1668961 Z" fill="#000000"></path>
+                        <path d="M4,16 L5,16 C5.55228475,16 6,16.4477153 6,17 C6,17.5522847 5.55228475,18 5,18 L4,18 C3.44771525,18 3,17.5522847 3,17 C3,16.4477153 3.44771525,16 4,16 Z M1,11 L5,11 C5.55228475,11 6,11.4477153 6,12 C6,12.5522847 5.55228475,13 5,13 L1,13 C0.44771525,13 6.76353751e-17,12.5522847 0,12 C-6.76353751e-17,11.4477153 0.44771525,11 1,11 Z M4,6 L5,6 C5.55228475,6 6,6.44771525 6,7 C6,7.55228475 5.55228475,8 5,8 L4,8 C3.44771525,8 3,7.55228475 3,7 C3,6.44771525 3.44771525,6 4,6 Z" fill="#000000" opacity="0.3"></path>
+                    </g>
+                </svg>
+              </span>
+              <div class="flex-1 ml-4">
+                <h6 class="text-darkblue text-uppercase font-weight-bold">
+                  Skin in the game
+                </h6>
+                <p class="text-muted">
+                  Everyone in the team is heavily invested in crypto. We swear by the fact that DeFi is the future!
+                </p>
+              </div>
+            </div>
+
+            <!-- Feature -->
+            <div class="d-flex mt-4 mt-xl-5">
+              <span class="svg-icon svg-icon-xl text-primary">
+                <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <rect x="0" y="0" width="24" height="24"></rect>
+                        <path d="M12,10.9996338 C12.8356605,10.3719448 13.8743941,10 15,10 C17.7614237,10 20,12.2385763 20,15 C20,17.7614237 17.7614237,20 15,20 C13.8743941,20 12.8356605,19.6280552 12,19.0003662 C11.1643395,19.6280552 10.1256059,20 9,20 C6.23857625,20 4,17.7614237 4,15 C4,12.2385763 6.23857625,10 9,10 C10.1256059,10 11.1643395,10.3719448 12,10.9996338 Z M13.3336047,12.504354 C13.757474,13.2388026 14,14.0910788 14,15 C14,15.9088933 13.7574889,16.761145 13.3336438,17.4955783 C13.8188886,17.8206693 14.3938466,18 15,18 C16.6568542,18 18,16.6568542 18,15 C18,13.3431458 16.6568542,12 15,12 C14.3930587,12 13.8175971,12.18044 13.3336047,12.504354 Z" fill="#000000" fill-rule="nonzero" opacity="0.3"></path>
+                        <circle fill="#000000" cx="12" cy="9" r="5"></circle>
+                    </g>
+                </svg>
+              </span>
+              <div class="flex-1 ml-4">
+                <h6 class="text-darkblue text-uppercase font-weight-bold">
+                  Agile, collaborative design
+                </h6>
+                <p class="text-muted mb-0">
+                  Just like the blockchains, our processes are extremely simple and fully transparent. We communicate a lot, and deliver updates everyday.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Features #2 -->
+    <div class="mt-7">
+      <div class="container text-center text-lg-left">
+        <span class="svg-icon svg-icon-xxl text-primary ml-n2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><title>ionicons-v5-e</title><line x1="400" y1="256" x2="112" y2="256" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/></svg>
+        </span>
+
+        <h1 class="text-darkblue font-weight-normal">
+          How we consistently <br>produce rich, meaningful work
+        </h1>
+
+        <div class="row mt-6">
+          <!-- Feature -->
+          <div class="col-lg-4">
+            <div class="svg-icon svg-icon-xl text-primary">
+              <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                      <polygon points="0 0 24 0 24 24 0 24"></polygon>
+                      <path d="M18.5,8 C17.1192881,8 16,6.88071187 16,5.5 C16,4.11928813 17.1192881,3 18.5,3 C19.8807119,3 21,4.11928813 21,5.5 C21,6.88071187 19.8807119,8 18.5,8 Z M18.5,21 C17.1192881,21 16,19.8807119 16,18.5 C16,17.1192881 17.1192881,16 18.5,16 C19.8807119,16 21,17.1192881 21,18.5 C21,19.8807119 19.8807119,21 18.5,21 Z M5.5,21 C4.11928813,21 3,19.8807119 3,18.5 C3,17.1192881 4.11928813,16 5.5,16 C6.88071187,16 8,17.1192881 8,18.5 C8,19.8807119 6.88071187,21 5.5,21 Z" fill="#000000" opacity="0.3"></path>
+                      <path d="M5.5,8 C4.11928813,8 3,6.88071187 3,5.5 C3,4.11928813 4.11928813,3 5.5,3 C6.88071187,3 8,4.11928813 8,5.5 C8,6.88071187 6.88071187,8 5.5,8 Z M11,4 L13,4 C13.5522847,4 14,4.44771525 14,5 C14,5.55228475 13.5522847,6 13,6 L11,6 C10.4477153,6 10,5.55228475 10,5 C10,4.44771525 10.4477153,4 11,4 Z M11,18 L13,18 C13.5522847,18 14,18.4477153 14,19 C14,19.5522847 13.5522847,20 13,20 L11,20 C10.4477153,20 10,19.5522847 10,19 C10,18.4477153 10.4477153,18 11,18 Z M5,10 C5.55228475,10 6,10.4477153 6,11 L6,13 C6,13.5522847 5.55228475,14 5,14 C4.44771525,14 4,13.5522847 4,13 L4,11 C4,10.4477153 4.44771525,10 5,10 Z M19,10 C19.5522847,10 20,10.4477153 20,11 L20,13 C20,13.5522847 19.5522847,14 19,14 C18.4477153,14 18,13.5522847 18,13 L18,11 C18,10.4477153 18.4477153,10 19,10 Z" fill="#000000"></path>
+                  </g>
+              </svg>
+            </div>
+            <h4 class="text-darkblue font-weight-normal mt-4">
+              Truly decentralised team
+            </h4>
+            <p class="text-muted mt-4">
+              We have a truly diversified team, spread in different countries and cultures. That helps us bring a lot of fresh perspectives into the designs we do.
+            </p>
+          </div>
+
+          <!-- Feature -->
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="svg-icon svg-icon-xl text-primary">
+              <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                      <polygon points="0 0 24 0 24 24 0 24"></polygon>
+                      <path d="M12.9336061,16.072447 L19.36,10.9564761 L19.5181585,10.8312381 C20.1676248,10.3169571 20.2772143,9.3735535 19.7629333,8.72408713 C19.6917232,8.63415859 19.6104327,8.55269514 19.5206557,8.48129411 L12.9336854,3.24257445 C12.3871201,2.80788259 11.6128799,2.80788259 11.0663146,3.24257445 L4.47482784,8.48488609 C3.82645598,9.00054628 3.71887192,9.94418071 4.23453211,10.5925526 C4.30500305,10.6811601 4.38527899,10.7615046 4.47382636,10.8320511 L4.63,10.9564761 L11.0659024,16.0730648 C11.6126744,16.5077525 12.3871218,16.5074963 12.9336061,16.072447 Z" fill="#000000" fill-rule="nonzero"></path>
+                      <path d="M11.0563554,18.6706981 L5.33593024,14.122919 C4.94553994,13.8125559 4.37746707,13.8774308 4.06710397,14.2678211 C4.06471678,14.2708238 4.06234874,14.2738418 4.06,14.2768747 L4.06,14.2768747 C3.75257288,14.6738539 3.82516916,15.244888 4.22214834,15.5523151 C4.22358765,15.5534297 4.2250303,15.55454 4.22647627,15.555646 L11.0872776,20.8031356 C11.6250734,21.2144692 12.371757,21.2145375 12.909628,20.8033023 L19.7677785,15.559828 C20.1693192,15.2528257 20.2459576,14.6784381 19.9389553,14.2768974 C19.9376429,14.2751809 19.9363245,14.2734691 19.935,14.2717619 L19.935,14.2717619 C19.6266937,13.8743807 19.0546209,13.8021712 18.6572397,14.1104775 C18.654352,14.112718 18.6514778,14.1149757 18.6486172,14.1172508 L12.9235044,18.6705218 C12.377022,19.1051477 11.6029199,19.1052208 11.0563554,18.6706981 Z" fill="#000000" opacity="0.3"></path>
+                  </g>
+              </svg>
+            </div>
+            <h4 class="text-darkblue font-weight-normal mt-4">
+              Focus on quality
+            </h4>
+            <p class="text-muted mt-4">
+              We do a thorough research before starting the designs which then goes though multiple rounds of rapid iterations, making sure every pixels is exactly where it should be.
+            </p>
+          </div>
+
+          <!-- Feature -->
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="svg-icon svg-icon-xl text-primary">
+              <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                      <polygon points="0 0 24 0 24 24 0 24"></polygon>
+                      <path d="M3.70710678,15.7071068 C3.31658249,16.0976311 2.68341751,16.0976311 2.29289322,15.7071068 C1.90236893,15.3165825 1.90236893,14.6834175 2.29289322,14.2928932 L8.29289322,8.29289322 C8.67147216,7.91431428 9.28105859,7.90106866 9.67572463,8.26284586 L15.6757246,13.7628459 C16.0828436,14.1360383 16.1103465,14.7686056 15.7371541,15.1757246 C15.3639617,15.5828436 14.7313944,15.6103465 14.3242754,15.2371541 L9.03007575,10.3841378 L3.70710678,15.7071068 Z" fill="#000000" fill-rule="nonzero" transform="translate(9.000003, 11.999999) rotate(-270.000000) translate(-9.000003, -11.999999) "></path>
+                      <rect fill="#000000" opacity="0.3" x="12" y="17" width="10" height="2" rx="1"></rect>
+                  </g>
+              </svg>
+            </div>
+            <h4 class="text-darkblue font-weight-normal mt-4">
+              Experience in the industry
+            </h4>
+            <p class="text-muted mt-4">
+              We're building DeFi platforms since pre-$1000 Bitcoin days (you're damn right we're HODLing!). That's gives us incredible insights into the industry standards & best practices.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Sponsors -->
+  <section class="mt-8">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="text-darkblue">
+          More of our DeFi projects
+        </h2>
+        <span class="svg-icon svg-icon-xl text-success"><svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><title>ionicons-v5-e</title><line x1="400" y1="256" x2="112" y2="256" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/></svg></span>
+      </div>
+
+      <!-- Logos -->
+      <div class="row text-center mt-6">
+        <div class="col-sm-6 col-md-3 mb-5">
+          <img src="assets/img/svg/pangolin-color.svg" class="img-fluid" alt="">
+        </div>
+        <div class="col-sm-6 col-md-3 mb-5">
+          <img src="assets/img/svg/serum-color.svg" class="img-fluid" alt="">
+        </div>
+        <div class="col-sm-6 col-md-3 mb-5">
+          <img src="assets/img/svg/solana-color.svg" class="img-fluid" alt="">
+        </div>
+        <div class="col-sm-6 col-md-3 mb-5">
+          <img src="assets/img/svg/proofofbake.png" class="img-fluid" alt="">
+        </div>
+        <div class="col-sm-6 col-md-3 mb-5">
+          <img src="assets/img/svg/snowball-color.png" class="img-fluid" alt="">
+        </div>
+        <div class="col-sm-6 col-md-3 mb-5">
+          <img src="assets/img/svg/tombola-color.png" class="img-fluid" alt="">
+        </div>
+        <div class="col-sm-6 col-md-3 mb-5">
+          <img src="assets/img/svg/cointow-color.png" class="img-fluid" alt="">
+        </div>
+        <div class="col-sm-6 col-md-3 mb-5">
+          <img src="assets/img/svg/invisible-color.svg" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Intro -->
+  <section class="mt-7">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- About me -->
+        <div class="col-lg-4">
+          <span class="badge bg-pastel-purple text-purple text-uppercase font-weight-bolder">
+            Showoff
+          </span>
+
+          <h2 class="mt-3">
+            We love building meaningful, beautiful designs
+          </h2>
+
+          <p class="lead text-secondary mt-4">
+            We do illustrations, animations, 3D, AR, Vr and pretty much everything that can make your DeFi project succeed.
+          </p>
+        </div>
+
+        <!-- Gallery -->
+        <div class="col-lg-7 offset-lg-1 mt-5 mt-lg-0">
+          <div class="row g-0">
+            <div class="col-sm-5 align-self-sm-end pr-sm-2 mb-3">
+              <a href="assets/img/screenshots/box.mp4" class="d-block hover-lift-light" data-fancybox="gallery1">
+                <video height="200" autoplay muted loop>
+        <source src="assets/img/screenshots/box.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+      Your browser does not support the video tag.
+      </video>
+              </a>
+            </div>
+            <div class="col-sm-7 pl-sm-2 mb-3">
+              <a href="assets/img/screenshots/widescreen.mp4" class="d-block hover-lift-light" data-fancybox="gallery1">
+                <video height="200" autoplay muted loop>
+        <source src="assets/img/screenshots/original.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+      Your browser does not support the video tag.
+      </video>
+              </a>
+            </div>
+            <div class="col-sm-5 offset-sm-1 mb-3">
+              <a href="assets/img/screenshots/v5.mp4" class="d-block hover-lift-light" data-fancybox="gallery1">
+                <video height="200" autoplay muted loop>
+        <source src="assets/img/screenshots/v5.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+      Your browser does not support the video tag.
+      </video>
+              </a>
+            </div>
+            <div class="col-sm-5 pl-sm-3">
+              <a href="assets/img/screenshots/snowball.mp4" class="d-block hover-lift-light" data-fancybox="gallery1">
+                <video height="200" autoplay muted loop>
+        <source src="assets/img/screenshots/snowball.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+      Your browser does not support the video tag.
+      </video>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to action -->
+  <section class="bg-white py-7 py-lg-8">
+    <div class="container">
+      <div class="row align-items-center text-center text-lg-left">
+        <div class="col-lg-8 offset-lg-1">
+          <div class="d-flex flex-column flex-lg-row align-items-center">
+            <div class="icon-circle icon-circle-xl bg-darkblue text-white">
+              <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                      <rect x="0" y="0" width="24" height="24"></rect>
+                      <path d="M4,9.67471899 L10.880262,13.6470401 C10.9543486,13.689814 11.0320333,13.7207107 11.1111111,13.740321 L11.1111111,21.4444444 L4.49070127,17.526473 C4.18655139,17.3464765 4,17.0193034 4,16.6658832 L4,9.67471899 Z M20,9.56911707 L20,16.6658832 C20,17.0193034 19.8134486,17.3464765 19.5092987,17.526473 L12.8888889,21.4444444 L12.8888889,13.6728275 C12.9050191,13.6647696 12.9210067,13.6561758 12.9368301,13.6470401 L20,9.56911707 Z" fill="#000000"></path>
+                      <path d="M4.21611835,7.74669402 C4.30015839,7.64056877 4.40623188,7.55087574 4.5299008,7.48500698 L11.5299008,3.75665466 C11.8237589,3.60013944 12.1762411,3.60013944 12.4700992,3.75665466 L19.4700992,7.48500698 C19.5654307,7.53578262 19.6503066,7.60071528 19.7226939,7.67641889 L12.0479413,12.1074394 C11.9974761,12.1365754 11.9509488,12.1699127 11.9085461,12.2067543 C11.8661433,12.1699127 11.819616,12.1365754 11.7691509,12.1074394 L4.21611835,7.74669402 Z" fill="#000000" opacity="0.3"></path>
+                  </g>
+              </svg>
+            </div>
+
+            <div class="flex-1 ml-lg-5 mt-4 mt-lg-0">
+              <h2 class="font-weight-normal text-darkblue">
+                This is only the tip of the iceberg
+              </h2>
+              <p class="text-muted mt-3 mb-0">
+                We'll be happy to walk you through some of the projects we've done and how we've added value to them.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 mt-5 mt-lg-0">
+          <a href="#" class="btn btn-purple btn-lg text-uppercase-bold-sm shadow-sm hover-lift">
+            Let's talk
+            <i class="fa fa-chevron-right fa-xs ml-2"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <div id="footerContent"></div>
+
+  <!-- JAVASCRIPT
+  ============================================-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+  integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+  crossorigin="anonymous"></script>
+  <!-- Comment the following line if you prefer vendors broken down -->
+  <script src="assets/js/vendor.min.js"></script>
+
+  <!-- Uncomment these lines if you prefer vendors broken down -->
+  <!-- <script src="assets/vendor/jquery/dist/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/fancybox/jquery.fancybox.min.js"></script>
+  <script src="assets/vendor/pikaday/pikaday.js"></script>
+  <script src="assets/vendor/jquery.elevateZoom/jquery.elevateZoom.min.js"></script>
+  <script src="assets/vendor/smooth-scroll/smooth-scroll.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/jarallax/dist/jarallax.min.js"></script>
+  <script src="assets/vendor/jarallax/dist/jarallax-video.min.js"></script>
+  <script src="assets/vendor/jarallax/dist/jarallax-element.min.js"></script>
+  <script src="assets/vendor/zoomerang/zoomerang.js"></script>
+  <script src="assets/vendor/swiper/swiper.min.js"></script>
+  <script src="assets/vendor/highlight/highlight.min.js"></script>
+  <script src="assets/vendor/atvImg/atvImg-min.js"></script> -->
+
+
+  <!-- Main Theme file -->
+  <script src="assets/js/theme.min.js"></script>
+  <script> 
+
+    $(function () {
+    $("#headerContent").load("navbar.html");
+  });
+
+     $(function () {
+      $("#footerContent").load("footer.html");
+    });
+  </script>
+
+</body>
+</html>
